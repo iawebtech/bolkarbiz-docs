@@ -52,6 +52,23 @@ Pick the story closest to your shop. You still install one app; you change **bus
 
 ---
 
+## 3b. Laundry / dry-clean / workshop with pickup and drop
+
+**OS job:** Collect dirty or broken items, process in the plant, return them.
+
+**Typical day**
+
+- Driver run: morning pickups from customer addresses.
+- Plant: tag garments / job cards, move stages (received → in process → ready).
+- Evening: drop-ready orders assigned to the Driver app.
+- Credit customers (hotels, PGs) use **credit limit** instead of cash each bag.
+
+**Setup emphasis:** processing / laundry workflow, pickup & drop, driver users, Android Driver app on rider phones.
+
+**Devices:** Desktop or Android in the plant; [Driver - For BolkarBIZ](https://play.google.com/store/apps/details?id=com.bolkarbiz.driver&hl=en_IN) on the bike.
+
+---
+
 ## 4. Repair / field service
 
 **OS job:** Job card → parts used → invoice.
@@ -117,6 +134,17 @@ If your workflow is “counter + stock + people + simple books,” you are in sc
 
 ---
 
+## 8. Seller with their own website or app
+
+**OS job:** Public brand on a custom site or app; operations still in Bolkar BIZ.
+
+- Catalogue and prices live in Bolkar BIZ.
+- Storefront is frontend-only (your developers).
+- WhatsApp commerce can sit beside the site for the same stock.
+- Counter and warehouse staff never log into the customer website to bill.
+
+---
+
 ## Suggested device map
 
 | Role | Best OS |
@@ -124,6 +152,7 @@ If your workflow is “counter + stock + people + simple books,” you are in sc
 | Main till | Windows or Linux (Snap/AppImage) |
 | Reception / bookings | iPad or Android |
 | Floor stock | Android |
+| Pickup / drop rider | **Android Driver app only** |
 | Owner travel | iOS or Android |
 | Back office | macOS or Windows |
 | Cheap kiosk Chromebook | ChromeOS + Play app |

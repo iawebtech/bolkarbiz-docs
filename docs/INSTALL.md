@@ -106,6 +106,23 @@ chmod +x bolkarbiz-linux.AppImage
 
 ---
 
+## Driver app — Android only
+
+For pickup and delivery staff. This is **not** the full Bolkar BIZ POS. It is a separate app: **Driver - For BolkarBIZ**.
+
+1. Open [Driver - For BolkarBIZ on Google Play](https://play.google.com/store/apps/details?id=com.bolkarbiz.driver&hl=en_IN).
+2. Install on the rider’s Android phone.
+3. Sign in with the **driver / delivery** login the shop owner created in Bolkar BIZ (not the owner POS login).
+4. Accept assigned **pickup** and **drop** jobs, update status on the road.
+
+**Needs:** Android. There is **no** iOS, Windows, macOS, or Linux driver app.
+
+Package ID: `com.bolkarbiz.driver`
+
+The shop still runs Bolkar BIZ (Play Store / desktop) to create jobs and assign drivers.
+
+---
+
 ## ChromeOS
 
 On a Chromebook with Play Store:

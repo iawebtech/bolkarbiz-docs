@@ -19,20 +19,25 @@ This repository is **documentation only**. The Flutter application source is pri
 |---|---|
 | [Install on every OS](docs/INSTALL.md) | Android, iOS, Windows, macOS, Linux (AppImage + Snap), ChromeOS |
 | [Getting started](docs/GETTING-STARTED.md) | First-day setup: shop, products, tax, staff, first bill |
-| [Features and how to use them](docs/FEATURES.md) | POS, inventory, customers, voice AI, reports, team, bookings |
-| [Use cases](docs/USE-CASES.md) | Kirana, salon, restaurant, services, multi-counter shops |
+| [Features and how to use them](docs/FEATURES.md) | POS, credit limit, laundry pickup/drop, driver, WhatsApp, custom storefront |
+| [Use cases](docs/USE-CASES.md) | Kirana, salon, restaurant, laundry/workshop, services, multi-counter shops |
 
 ## What Bolkar BIZ is
 
 Bolkar BIZ is a **business operating system** for operators who sell products, deliver services, or both:
 
 - Billing / POS (including GST-oriented Indian retail flows)
+- **Customer credit limit (udhari)** — cap, sell on credit, collect later
 - Inventory and catalogues
 - Customers and repeat sales
 - Bookings and service jobs
+- **Laundry / workshop pickup and drop** with staged processing
+- **Driver app** (Android) for assigned pickups and deliveries
 - Team roles
 - Reports
 - Voice and chat AI that works **offline** for core operations
+- **WhatsApp commerce** on the seller’s own WhatsApp Business connection
+- **Your own website or mobile frontend** — Bolkar BIZ as the business OS / backend
 - Optional cloud sync when you are online
 
 One Bolkar BIZ account works across phone, tablet, and desktop.
@@ -48,6 +53,7 @@ One Bolkar BIZ account works across phone, tablet, and desktop.
 | **Linux AppImage** | [bolkarbiz-linux.AppImage](https://bolkarbiz.com/downloads/desktop/latest/linux/bolkarbiz-linux.AppImage) |
 | **Linux Snap** | `sudo snap install bolkarbiz --edge` · [Snap Store](https://snapcraft.io/bolkarbiz) |
 | **ChromeOS** | Install the [Android app from Play Store](https://play.google.com/store/apps/details?id=com.iawebtech.bolkar) |
+| **Driver (Android only)** | [Driver - For BolkarBIZ](https://play.google.com/store/apps/details?id=com.bolkarbiz.driver&hl=en_IN) |
 
 Step-by-step: [docs/INSTALL.md](docs/INSTALL.md).
 

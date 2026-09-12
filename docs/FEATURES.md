@@ -66,6 +66,26 @@ Voice examples below are typical. Speak in the language you set in the app (Engl
 
 ---
 
+## 3b. Customer credit limit (udhari)
+
+**What it is:** A rupee cap per customer for credit sales. The counter can sell without cash today; the app tracks used vs remaining limit.
+
+**How to use**
+
+1. Open the customer.
+2. Set **credit limit** (and optional billing cycle if your shop uses one).
+3. On POS, attach that customer and pay with **Credit / udhari** (after wallet or gift card if you use those).
+4. Collect later from the customer ledger / outstanding report.
+5. When they repay, record the collection so the used amount drops.
+
+**Useful details**
+
+- If the bill would go **over the limit**, the app should warn or block — train cashiers not to override without the owner.
+- Credit is per customer, not a shop-wide “everyone can take udhari.”
+- Voice: *“Anuj ka udhari khata banao, limit 5000.”* *“Bill udhari se.”*
+
+---
+
 ## 4. Services and bookings
 
 **What it is:** Time-based work — salon chairs, repair jobs, appointments.
@@ -83,6 +103,43 @@ Voice examples below are typical. Speak in the language you set in the app (Engl
 - Reminders depend on notification permission on the device.
 
 **Voice:** *“Book Priya for facial tomorrow 4 pm.”*
+
+---
+
+## 4b. Laundry and workshop pickup / drop
+
+**What it is:** Jobs that leave the shop: collect from home or drop processed items back. Typical for **laundry, dry-clean, tailoring, repair workshops**.
+
+**How to use**
+
+1. Set business type / processing workflow so laundry or workshop stages are on.
+2. Create an order: customer, items/garments, **pickup** time/address.
+3. Assign a **driver** (they use the Android Driver app).
+4. Process in shop stages (received → washing / repair → ready).
+5. Schedule **drop** / delivery; driver marks delivered.
+
+**Useful details**
+
+- Pickup and drop are logistics on top of the job — not a replacement for POS retail.
+- Owner/manager assigns runs in Bolkar BIZ; the rider only sees their jobs in **Driver - For BolkarBIZ**.
+- Voice: *“Laundry pickup book karo.”* *“Dipti ke kapde ready hue?”*
+
+---
+
+## 4c. Driver app
+
+**What it is:** Android-only field app for assigned pickups and deliveries.
+
+**How to use**
+
+1. Owner creates a driver / delivery staff user in Bolkar BIZ.
+2. Driver installs [Driver - For BolkarBIZ](https://play.google.com/store/apps/details?id=com.bolkarbiz.driver&hl=en_IN).
+3. Driver goes online, accepts the run, navigates, marks picked / dropped.
+
+**Useful details**
+
+- Not a billing app. No iOS driver build.
+- Keep the owner account off the rider’s phone.
 
 ---
 
@@ -157,11 +214,39 @@ Bolkar BIZ records **how** the customer paid. Card numbers are not stored as PAN
 
 ---
 
-## 9. WhatsApp / messaging (optional)
+## 9. WhatsApp commerce (optional)
 
-If enabled for your shop, you can share bills or catalogues from **your** WhatsApp Business connection (seller-owned), subject to Meta’s terms. This is not required for POS.
+**What it is:** Sell and support on **your** WhatsApp Business number. Bolkar BIZ does not take over the customer’s chat as a shared inbox you do not own.
 
-Turn it on only after privacy and staff training — chats are customer data.
+**How to use**
+
+1. Connect WhatsApp Business in shop settings (Meta / WhatsApp terms apply).
+2. Share catalogue, bill PDF, or order updates from the customer or bill screen.
+3. Incoming orders (if enabled for your plan) land as shop jobs you confirm in Bolkar BIZ.
+
+**Useful details**
+
+- This is **seller-owned** commerce: your number, your customers.
+- Staff who send WhatsApp messages must be trained; chats are personal data (see the privacy policy).
+- You can run WhatsApp **together with** a website or custom app — it is not either/or.
+
+---
+
+## 9b. Your own website or mobile frontend
+
+**What it is:** Some sellers already have (or will build) a **frontend-only** site or customer app — their brand, their UI. Bolkar BIZ stays the **business OS**: catalogue, stock, billing, customers, staff, pickup jobs.
+
+**How to use**
+
+1. Keep operating in Bolkar BIZ (this is the system of record).
+2. Point your storefront or app at Bolkar BIZ APIs / catalogue you already manage here.
+3. Do **not** duplicate stock in a second admin. Staff still bill, receive, and close day in Bolkar BIZ.
+
+**Useful details**
+
+- You own the customer-facing UI. We do not force a Bolkar-branded shop website.
+- Desktop/mobile Bolkar BIZ remains how the team runs the shop; the custom frontend is for buyers if you want one.
+- Talk to support@bolkarbiz.com if you need the integration path for a new storefront.
 
 ---
 

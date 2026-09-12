@@ -51,7 +51,9 @@ That bill should appear in today’s sales.
 
 ## 5. Add one customer (optional but useful)
 
-From the bill or the customer list: name + mobile. Next time, search the number to apply credit, history, or WhatsApp follow-up (if you enabled WhatsApp).
+From the bill or the customer list: name + mobile. Next time, search the number to apply **credit limit (udhari)**, history, or WhatsApp follow-up (if you enabled WhatsApp commerce).
+
+For a trusted regular: set a **credit limit** before the first udhari bill so the cashier cannot overshoot.
 
 ## 6. Add staff only when needed
 
